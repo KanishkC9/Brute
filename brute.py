@@ -25,7 +25,7 @@ def bruteforce():
                 return True
 
         
-    yourPass = "daad" # change input strinf accordingly
+    yourPass = "daad" # change input string accordingly
     recursePassword(inputString,0,"",yourPass)
     print("Your Passcode ", yourPass ," was guessed in " ,(finish) , 'seconds')
 
